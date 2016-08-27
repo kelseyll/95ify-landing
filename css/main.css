@@ -8,6 +8,7 @@
 }
 
 body {
+    animation: fadeIn 4s infinite;
     font-family: 'CrapFont', sans-serif !important;
     background-color: #048282;
 }

@@ -1,0 +1,23 @@
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadeIn {
+    100% {opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes fadeIn {
+    20% {opacity: 1;}
+    25% {opacity: 0;}
+    27% {opacity: 1;}
+
+    60% {opacity: 1;}
+    61% {opacity: 0;}
+    63% {opacity: 1;}
+
+    80% {opacity: 1;}
+    82% {opacity: 0;}
+    84% {opacity: 1;}
+
+    90% {opacity: 1;}
+    92% {opacity: 0;}
+    94% {opacity: 1;}
+}
