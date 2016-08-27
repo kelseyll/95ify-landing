@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'CrapFont';
+    src: url('../micross.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'TerminalFont';
+    src: url('./FSEX300.ttf') format('truetype');
+}
+
+body {
+    font-family: 'CrapFont', sans-serif !important;
+    background-color: #048282;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+h1.title {
+    color: #fff;
+    top: 20%;
+    font-size: 80px;
+}
+
+h2.slogan {
+    font-size: 14px;
+    letter-spacing: 2px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 50px;
+    line-height: 1.8;
+}
+
+.hero {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.palm-gif {
+    z-index: -99;
+    align-self: center;
+    width: 70px;
+    animation: noise-anim-2 3s infinite step-end;
+}
+
+a.download-button {
+    margin: 30px auto;
+    border-style: outset;
+    background-color: #eee;
+    width: 300px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a.download-button:hover {
+    border-style: inset;
+    background-color: #eee;
+}
