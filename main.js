@@ -1,22 +1,15 @@
-console.log("lol");
-
 $(document).ready(function() {
-        var audioElement = document.createElement('audio');
-        audioElement.setAttribute('src', 'audio.mp3');
-        audioElement.setAttribute('autoplay', 'autoplay');
-        //audioElement.load()
 
-        $.get();
+    var audioElement = document.createElement('audio');
+    audioElement.setAttribute('src', 'audio.mp3');
 
-        audioElement.addEventListener("load", function() {
-            audioElement.play();
-        }, true);
+    $.get();
 
-        $('.play').click(function() {
-            audioElement.play();
-        });
+    audioElement.addEventListener("load", function() {
+        audioElement.play();
+    }, true);
 
-        $('.pause').click(function() {
-            audioElement.pause();
-        });
+    $('.play').click(function() {
+        audioElement.play();
     });
+});
