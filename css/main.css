@@ -37,6 +37,8 @@ h2.slogan {
 }
 
 .hero {
+    opacity: 0;
+    animation: fadeIn 3s forwards;
     padding: 100px 0;
     display: flex;
     justify-content: center;
@@ -50,12 +52,16 @@ h2.slogan {
     animation: noise-anim-2 3s infinite step-end;
 }
 
+a {
+    color: green;
+}
+
 a.download-button {
-    margin: 30px auto;
+    margin: 60px auto 50px auto;
     border-style: outset;
+    border-color: cyan;
     background-color: #eee;
     width: 300px;
-    color: #000;
     text-transform: uppercase;
     font-weight: 600;
     text-align: center;
@@ -232,4 +238,12 @@ a.download-button:hover {
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
   animation: noise-anim-2 3s infinite linear alternate-reverse;
+}
+
+@-webkit-keyframes fadeIn {
+    100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    100% {opacity: 1;}
 }
