@@ -13,8 +13,19 @@ body {
 }
 
 h1,
-h2 {
+h2,
+footer {
     text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer a {
+    padding: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 h1.title {
@@ -39,7 +50,7 @@ h2.slogan {
 .hero {
     opacity: 0;
     animation: fadeIn 3s forwards;
-    padding: 100px 0;
+    padding: 90px 0 20px 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -57,7 +68,7 @@ a {
 }
 
 a.download-button {
-    margin: 60px auto 50px auto;
+    margin: 60px auto 10px auto;
     border-style: outset;
     border-color: cyan;
     background-color: #eee;
